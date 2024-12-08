@@ -3,11 +3,12 @@
 ## Table of Contents
 1. [Objective](#objective)
 2. [Task Requirements](#task-requirements)
-3. [How to Run the Project](#how-to-run-the-project)
-4. [Key Results](#key-results)
-5. [Feature Importance](#feature-importance)
-6. [Technologies Used](#technologies-used)
-7. [Future Improvements](#future-improvements)
+3. [Features](#feeatures)
+4. [How to Run the Project](#how-to-run-the-project)
+5. [Key Results](#key-results)
+6. [Feature Importance](#feature-importance)
+7. [Technologies Used](#technologies-used)
+8. [Future Improvements](#future-improvements)
 
 ##  📚 Objective 
 Develop a machine learning model that predicts stock movements by scraping data from social media platforms like Twitter, Reddit, or Telegram. The model should extract insights from user-generated content, such as stock discussions, predictions, or sentiment analysis, and accurately forecast stock price trends.
