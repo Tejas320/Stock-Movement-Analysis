@@ -1,8 +1,8 @@
 from telethon.sync import TelegramClient
 import pandas as pd
 
-api_id = '26633719'  
-api_hash = '9089c0258d614a9416cfc86e9b89e87b'  
+api_id = 'XXXXXXXX'  
+api_hash = 'XXXXXXXXXXXXXXXX'  
 channel_username = 'StockPhoenix'
 
 # Create a client
