@@ -3,7 +3,7 @@
 ## Table of Contents
 1. [Objective](#objective)
 2. [Task Requirements](#task-requirements)
-3. [Features](#feeatures)
+3. [Features](#features)
 4. [How to Run the Project](#how-to-run-the-project)
 5. [Key Results](#key-results)
 6. [Feature Importance](#feature-importance)
