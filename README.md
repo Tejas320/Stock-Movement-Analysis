@@ -3,10 +3,13 @@
 ## Table of Contents
 1. [Objective](#objective)
 2. [Task Requirements](#task-requirements)
-3. [Features](#features)
-4. [Project Workflow](#project-workflow)
+3. [How to Run the Project](#how-to-run-the-project)
+4. [Key Results](#key-results)
+5. [Feature Importance](#feature-importance)
+6. [Technologies Used](#technologies-used)
+7. [Future Improvements](#future-improvements)
 
-## Objective 
+##  📚 Objective 
 Develop a machine learning model that predicts stock movements by scraping data from social media platforms like Twitter, Reddit, or Telegram. The model should extract insights from user-generated content, such as stock discussions, predictions, or sentiment analysis, and accurately forecast stock price trends.
 ## Task Requirements
 ### 1. Data Scraping: 
@@ -24,7 +27,7 @@ Develop a machine learning model that predicts stock movements by scraping data 
 ○ Proficiency in Python, with experience in web scraping (using libraries such as BeautifulSoup, Scrapy, or Selenium).
 ○ Knowledge of Natural Language Processing (NLP) techniques for sentiment analysis and text mining.
 ○ Experience in building and evaluating machine learning models using libraries such as scikit-learn, TensorFlow, or PyTorch.
-## Features
+## 🔧 Features
 ### 1. Data Scraping
 - Uses Telethon to scrape 50k stock-related messages from Telegram channel `Stock Phoenix` which provides stock market tips and tricks.
 - Extracts message text, date, message ID, views, forwards, reactions and other relevant metadata.
@@ -49,7 +52,7 @@ Develop a machine learning model that predicts stock movements by scraping data 
 ### 5. Evaluation
 Metrics: Accuracy, Precision, Recall, F1-score, and Confusion Matrix.
 Feature Importance: Identifies the most important features affecting the stock movement.
-## How to Run the Project
+## 📂 How to Run the Project
 ### 1️. Clone the Repository
 ```bash
 git clone https://github.com/Tejas320/Stock-Movement-Analysis.git
