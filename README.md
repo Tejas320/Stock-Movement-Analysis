@@ -61,8 +61,8 @@ cd stock-movement-analysis
 - Add the credentials to `scraping.py`
   ```bash
   api_id = 'YOUR_API_ID'
-api_hash = 'YOUR_API_HASH'
-```
+  api_hash = 'YOUR_API_HASH'
+  ```
 ### 3. Run Data Scraper
 Run the data scraper `scraping.py` to collect stock-related messages from a Telegram channel or you can direct use the dataset provided.
 ```bash
@@ -73,6 +73,8 @@ python scraping.py
 - Multinomial Naive Bayes had an accuracy of `76%`, but was faster to train.
 - Support Vector Classifier outperformed other models with an accuracy of `95%`.
 - Logistic Regression performed similar to Random Forest with accuracy of `93%`.
-  ![image](https://github.com/user-attachments/assets/ae797c60-f399-49de-a461-a3458128b382)
   Classification report of SVC
+  ![image](https://github.com/user-attachments/assets/ae797c60-f399-49de-a461-a3458128b382)
+Confusion Matrix of SVC model
+![image](https://github.com/user-attachments/assets/60fb1436-6e59-4b1c-adcb-47491952c14d)
 
