@@ -1,7 +1,7 @@
 #  Stock Movement Analysis Based on Social Media Sentiment
 
 ## Table of Contents
-1. [Objective](#objective)
+1. [📚 Objective](#objective)
 2. [Task Requirements](#task-requirements)
 3. [How to Run the Project](#how-to-run-the-project)
 4. [Key Results](#key-results)
