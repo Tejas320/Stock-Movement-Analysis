@@ -1,7 +1,7 @@
 #  Stock Movement Analysis Based on Social Media Sentiment
 
 ## Table of Contents
-1. [📚 Objective](#objective)
+1. [Objective](#objective)
 2. [Task Requirements](#task-requirements)
 3. [How to Run the Project](#how-to-run-the-project)
 4. [Key Results](#key-results)
@@ -27,7 +27,7 @@ Develop a machine learning model that predicts stock movements by scraping data 
 - Proficiency in Python, with experience in web scraping (using libraries such as BeautifulSoup, Scrapy, or Selenium).
 - Knowledge of Natural Language Processing (NLP) techniques for sentiment analysis and text mining.
 - Experience in building and evaluating machine learning models using libraries such as scikit-learn, TensorFlow, or PyTorch.
-## 🔧 Features
+## Features
 ### 1. Data Scraping
 - Uses Telethon to scrape 50k stock-related messages from Telegram channel `Stock Phoenix` which provides stock market tips and tricks.
 - Extracts message text, date, message ID, views, forwards, reactions and other relevant metadata.
