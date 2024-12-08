@@ -3,7 +3,7 @@
 ## Table of Contents
 1. [Objective](#objective)
 2. [Task Requirements](#task-requirements)
-3. [Dataset Description](#dataset-description)
+3. [Features](#features)
 4. [Project Workflow](#project-workflow)
 
 ## Objective 
@@ -43,8 +43,9 @@ Develop a machine learning model that predicts stock movements by scraping data 
 ### 4. Machine Learning Models
 - RandomForestClassifier for robust classification.
 - Multinomial Naive Bayes for text classification.
-- 
-Evaluation
-
+- Support Vector Classifier (SVC) works well with high-dim features.
+- Logistic Regression.
+  
+### 5. Evaluation
 Metrics: Accuracy, Precision, Recall, F1-score, and Confusion Matrix.
 Feature Importance: Identifies the most important features affecting the stock movement.
