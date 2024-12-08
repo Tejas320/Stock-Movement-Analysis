@@ -87,6 +87,13 @@ The most important features for stock movement predictions were:
 ![image](https://github.com/user-attachments/assets/aefe2b15-7a65-451c-a4e2-6c7efcdac655)
 #### Wordcloud
 ![image](https://github.com/user-attachments/assets/545e6273-7e89-46bb-8eef-fc3a61419ce2)
-
-
+## ⚙️ Technologies Used
+- Programming Language: Python
+- Data Scraping: Telethon
+- Data Analysis & Visualization: Pandas, Seaborn, Matplotlib, WordCloud
+- Machine Learning: Sklearn, RandomForest, Naive Bayes, SVC, LogisticRegression
+## 🚀 Future Improvements
+- Add Sentiment Analysis from more channels of Telegram.
+- Use transformer-based models like BERT for better text classification.
+- Implement LSTM or GRU models for better time-series forecasting.
 
