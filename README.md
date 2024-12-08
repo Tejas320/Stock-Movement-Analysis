@@ -3,14 +3,14 @@
 ## Table of Contents
 1. [Objective](#objective)
 2. [Task Requirements](#task-requirements)
-3. [🔧 Features](#features)
+3. [Features](#features)
 4. [How to Run the Project](#how-to-run-the-project)
 5. [Key Results](#key-results)
 6. [Feature Importance](#feature-importance)
 7. [Technologies Used](#technologies-used)
 8. [Future Improvements](#future-improvements)
 
-##  📚 Objective 
+## Objective 
 Develop a machine learning model that predicts stock movements by scraping data from social media platforms like Twitter, Reddit, or Telegram. The model should extract insights from user-generated content, such as stock discussions, predictions, or sentiment analysis, and accurately forecast stock price trends.
 ## Task Requirements
 ### 1. Data Scraping: 
@@ -28,7 +28,7 @@ Develop a machine learning model that predicts stock movements by scraping data 
 - Proficiency in Python, with experience in web scraping (using libraries such as BeautifulSoup, Scrapy, or Selenium).
 - Knowledge of Natural Language Processing (NLP) techniques for sentiment analysis and text mining.
 - Experience in building and evaluating machine learning models using libraries such as scikit-learn, TensorFlow, or PyTorch.
-## 🔧 Features
+## Features
 ### 1. Data Scraping
 - Uses Telethon to scrape 50k stock-related messages from Telegram channel `Stock Phoenix` which provides stock market tips and tricks.
 - Extracts message text, date, message ID, views, forwards, reactions and other relevant metadata.
@@ -53,7 +53,7 @@ Develop a machine learning model that predicts stock movements by scraping data 
 ### 5. Evaluation
 Metrics: Accuracy, Precision, Recall, F1-score, and Confusion Matrix.
 Feature Importance: Identifies the most important features affecting the stock movement.
-## 📂 How to Run the Project
+## How to Run the Project
 ### 1️. Clone the Repository
 ```bash
 git clone https://github.com/Tejas320/Stock-Movement-Analysis.git
@@ -72,7 +72,7 @@ Run the data scraper `scraping.py` to collect stock-related messages from a Tele
 ```bash
 python scraping.py
 ```
-## 🔍 Key Results
+## Key Results
 - Random Forest achieved an accuracy of `93%` on the test set.
 - Multinomial Naive Bayes had an accuracy of `76%`, but was faster to train.
 - Support Vector Classifier outperformed other models with an accuracy of `95%`.
@@ -81,7 +81,7 @@ python scraping.py
   ![image](https://github.com/user-attachments/assets/ae797c60-f399-49de-a461-a3458128b382)
 #### Confusion Matrix of SVC model
 ![image](https://github.com/user-attachments/assets/60fb1436-6e59-4b1c-adcb-47491952c14d)
-## 📊 Feature Importance
+## Feature Importance
 The most important features for stock movement predictions were:
 - Sentiment polarity score
 - Word frequencies of terms like "nifty", "bearish", "stop", "profit"
@@ -91,12 +91,12 @@ The most important features for stock movement predictions were:
 ![image](https://github.com/user-attachments/assets/aefe2b15-7a65-451c-a4e2-6c7efcdac655)
 #### Wordcloud
 ![image](https://github.com/user-attachments/assets/545e6273-7e89-46bb-8eef-fc3a61419ce2)
-## ⚙️ Technologies Used
+## Technologies Used
 - Programming Language: Python
 - Data Scraping: Telethon
 - Data Analysis & Visualization: Pandas, Seaborn, Matplotlib, WordCloud
 - Machine Learning: Sklearn, RandomForest, Naive Bayes, SVC, LogisticRegression
-## 🚀 Future Improvements
+## Future Improvements
 - Add Sentiment Analysis from more channels of Telegram.
 - Use transformer-based models like BERT for better text classification.
 - Implement LSTM or GRU models for better time-series forecasting.
