@@ -73,8 +73,20 @@ python scraping.py
 - Multinomial Naive Bayes had an accuracy of `76%`, but was faster to train.
 - Support Vector Classifier outperformed other models with an accuracy of `95%`.
 - Logistic Regression performed similar to Random Forest with accuracy of `93%`.
-  Classification report of SVC
+#### Classification report of SVC
   ![image](https://github.com/user-attachments/assets/ae797c60-f399-49de-a461-a3458128b382)
-Confusion Matrix of SVC model
+#### Confusion Matrix of SVC model
 ![image](https://github.com/user-attachments/assets/60fb1436-6e59-4b1c-adcb-47491952c14d)
+## 📊 Feature Importance
+The most important features for stock movement predictions were:
+- Sentiment polarity score
+- Word frequencies of terms like "nifty", "bearish", "stop", "profit"
+#### Sentiment Distribution
+![image](https://github.com/user-attachments/assets/048bfdff-81d6-4094-9efb-cc62086daa18)
+#### Top 20 Important Features
+![image](https://github.com/user-attachments/assets/aefe2b15-7a65-451c-a4e2-6c7efcdac655)
+#### Wordcloud
+![image](https://github.com/user-attachments/assets/545e6273-7e89-46bb-8eef-fc3a61419ce2)
+
+
 
