@@ -49,3 +49,13 @@ Develop a machine learning model that predicts stock movements by scraping data 
 ### 5. Evaluation
 Metrics: Accuracy, Precision, Recall, F1-score, and Confusion Matrix.
 Feature Importance: Identifies the most important features affecting the stock movement.
+## How to Run the Project
+### 1️. Clone the Repository
+```bash
+git clone https://github.com/Tejas320/Stock-Movement-Analysis.git
+cd stock-movement-analysis
+```
+### 2. Set up Telegram API
+- Visit my.telegram.org.
+- Get your API ID and API Hash.
+- Add the credentials to scraper.py
