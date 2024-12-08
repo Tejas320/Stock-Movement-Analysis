@@ -78,9 +78,9 @@ python scraping.py
 - Support Vector Classifier outperformed other models with an accuracy of `95%`.
 - Logistic Regression performed similar to Random Forest with accuracy of `93%`.
 #### Classification report of SVC
-  ![image](https://github.com/user-attachments/assets/ae797c60-f399-49de-a461-a3458128b382)
+  ![image](https://github.com/user-attachments/assets/1b967b30-a4d0-4611-807f-0e1a51b8ae7b)
 #### Confusion Matrix of SVC model
-![image](https://github.com/user-attachments/assets/60fb1436-6e59-4b1c-adcb-47491952c14d)
+![image](https://github.com/user-attachments/assets/47dc04a0-2ac5-42f7-ac81-58582f5f828a)
 ## Feature Importance
 The most important features for stock movement predictions were:
 - Sentiment polarity score
